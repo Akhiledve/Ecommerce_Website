@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+body{
+  background-color: aliceblue;
+}
+
+
+.Navbar{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  background-color: black;
+  color: aqua;
+  height: 80px;
+  padding: 10px;
+  padding-top: 25px;
+  
+  
+}
+.proTitle{
+  margin: 10px;
+}
+
+.subMenu ul li{
+ 
+  list-style-type: none;
+  margin: 35px;
+  margin-top: 10px;
+  margin-left: 35px;
+  
+  
+}
+
+.indSection{
+  display: flex;
+  
+  
+}
+.indImage{
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+.indImage{
+  width: 100%;
+}
+
+.indSection h2{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px;
+  color: goldenrod;
+}
+
+.subMenu .navLink {
+  text-decoration: none;
+}
+
+.subMenu ul {
+  display: inline-flex;
+  
+  font-weight: 700;
+}
+
+.subMenu{
+  background-color:silver;
+ 
+  
+  height: 50px;
+
+  
+}
+
+.txtInput{
+  height: 30px;
+  width: 235px;
+  padding-left: 5px;
+ 
+}
+
+.proSection{
+  display: flex;
+  padding-left: 10px;
+  background-color: white;
+  margin: 10px;
+  padding-right: 10px;
+  
+}
+
+
+.imgBox{
+  width:80%;
+ 
+}
+
+
+.proImage{
+  width:80%;
+ 
+}
+
+.pageSection{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 10px;
+  
+}
+.pageImage{
+  width: 250px;
+  height: 250px;
+}
+
+
+.pageImage img{
+
+  width:100%;
+
+}
+.pageModel{
+  font-size: 16px;
+  font-weight: 700;
+}
+
